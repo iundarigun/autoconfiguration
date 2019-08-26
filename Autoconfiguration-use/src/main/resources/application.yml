@@ -1,0 +1,10 @@
+devcave:
+  autoconfiguration:
+    manual:
+      message:  Manual hello my friends
+    starter:
+      message: Starter Hello my friends
+    conditional:
+      message: Conditional Hello my friends
+    annotation:
+      message: Annotation Hello my friends

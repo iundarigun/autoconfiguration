@@ -1,0 +1,3 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+br.com.devcave.config.autoconfiguration.starter.HelloWorld,\
+br.com.devcave.config.autoconfiguration.conditional.HelloWorld

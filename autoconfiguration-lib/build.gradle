@@ -1,0 +1,31 @@
+plugins {
+//	id 'org.springframework.boot' version '2.1.7.RELEASE'
+//	id 'io.spring.dependency-management' version '1.0.8.RELEASE'
+	id 'java'
+	id 'maven'
+}
+
+group = 'br.com.devcave.autoconfiguration'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+configurations {
+	compileOnly {
+		extendsFrom annotationProcessor
+	}
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile 'org.springframework:spring-context:5.1.9.RELEASE'
+	compile 'org.springframework.boot:spring-boot-autoconfigure:2.1.7.RELEASE'
+
+	compile 'org.slf4j:slf4j-api:1.7.26'
+
+	compileOnly 'org.projectlombok:lombok:1.18.8'
+	annotationProcessor 'org.projectlombok:lombok:1.18.8'
+}
+
